@@ -71,6 +71,4 @@ include_directories(common)
 
 # Include Common SharedUtils
 add_subdirectory(common)
-
-
-add_subdirectory(src/Chapter01/01.getting.started)
+add_subdirectory(src/Chapter01/01_test_project)
