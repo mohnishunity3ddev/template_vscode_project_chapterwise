@@ -1,8 +1,8 @@
 # all variables used in ps1 files
-Set-Variable -Name PROJECT_NAME -Value RenderingCookbook
+Set-Variable -Name PROJECT_NAME -Value "Template_VSCode_ChapterWise"
 
 Set-Variable -Name BUILD_SCRIPTS_DIR_PATH -Value $PSScriptRoot
-Set-Variable -Name PROJECT_ROOT_PATH_RELATIVE_FROM_SCRIPT -Value ..
+Set-Variable -Name PROJECT_ROOT_PATH_RELATIVE_FROM_SCRIPT -Value ..\..
 Set-Variable -Name BUILD_FOLDER_NAME -Value bin
 Set-Variable -Name SRC_FOLDER_NAME -Value src
 Set-Variable -Name BUILD_SCRIPTS_FOLDER_NAME -Value build_scripts
