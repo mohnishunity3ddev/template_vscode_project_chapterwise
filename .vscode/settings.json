@@ -5,7 +5,7 @@
     "editor.fontWeight": "normal",
     
     "terminal.integrated.profiles.windows": {
-        "Default Profile": {
+        "Default Profile Win": {
             "path": [
                 "C:\\Users\\h33t9\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe"
             ],
@@ -16,7 +16,17 @@
             ]
         }
     },
-    "terminal.integrated.defaultProfile.windows": "Default Profile",
+    "terminal.integrated.defaultProfile.windows": "Default Profile Win",
+    "terminal.integrated.profiles.linux": {
+        "Default Profile Linux": {
+            "path": "/bin/bash",
+            "args": [
+                "--rcfile",
+                "${workspaceFolder}/build_scripts/linux/set_aliases.sh"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "Default Profile Linux",
    
     "files.associations": {
         "chrono": "cpp",
