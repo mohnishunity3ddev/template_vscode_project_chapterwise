@@ -17,6 +17,30 @@
             "cStandard": "c17",
             "cppStandard": "c++23",
             "intelliSenseMode": "windows-clang-x64"
+        },
+        {
+            "name": "macOS",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/include",
+                "/usr/include",
+                "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1",
+                "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+                "${workspaceFolder}/common/"
+            ],
+            "defines": [
+                "_DEBUG",
+                "__APPLE__",
+                "__MACH__"
+            ],
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang++",
+            "cStandard": "c17",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "macos-clang-x64"
         }
     ],
     "version": 4

@@ -5,6 +5,19 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "(MacOS) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/../bin/${fileBasenameNoExtension}_Debug",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "targetArchitecture": "x64"
+        },
+        {
             "name": "(Windows) Launch ChapterWise Generic Debug",
             "type": "cppvsdbg",
             "request": "launch",
