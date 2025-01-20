@@ -8,6 +8,9 @@ set(CMAKE_CXX_STANDARD 20) # this does nothing for MSVC, use target_compile_opti
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS ON)
 
+# for clangd
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 # Definitions
 if(WIN32)
     add_definitions(-D_CRT_SECURE_NO_WARNINGS)

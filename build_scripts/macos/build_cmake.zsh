@@ -42,6 +42,8 @@ cd "$BIN_DIR_PATH" || exit 1
 # Build CMake files with Make
 make
 
+mv $BIN_DIR_PATH/compile_commands.json $PROJECT_ROOT_DIR_PATH/compile_commands.json
+
 # Return to the previous directory if not inside the bin directory
 if [[ $InsideBin -eq 0 ]]; then
     cd -

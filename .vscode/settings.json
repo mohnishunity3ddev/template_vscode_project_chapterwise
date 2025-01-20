@@ -1,7 +1,10 @@
 {
+    "editor.fontFamily": "'comic code ligatures', Monaco, 'SF Mono'",
     "editor.fontSize": 15,
     "editor.fontLigatures": true,
     "editor.fontWeight": "normal",
+
+    "editor.cursorStyle": "block",
     
     // for mac users
     "clangd.path": "/opt/homebrew/Cellar/llvm/19.1.7/bin/clangd",
@@ -38,4 +41,33 @@
     //     source "$workspace_dir/build_scripts/macos/set_aliases.zsh"
     // fi
     // fi
+    "workbench.colorTheme": "Visual Assist Dark Theme",
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#4d4d4d",
+        "activityBar.background": "#4d4d4d",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#308f30",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#4d4d4d",
+        "statusBar.background": "#343434",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#4d4d4d",
+        "statusBarItem.remoteBackground": "#343434",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#343434",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#34343499",
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "editor.lineHighlightBorder": "#D0FEEC00",
+        "editor.background": "#111111"
+    },
+
+    "zenMode.fullScreen": true,
+    "zenMode.hideStatusBar": true,
+    "zenMode.showTabs": "single",
+    "zenMode.hideActivityBar": true,
+
+    "editor.bracketPairColorization.enabled": false,
 }
