@@ -18,6 +18,14 @@
             "targetArchitecture": "x64"
         },
         {
+            "name": "(MacOS) LLDB Launch",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${fileDirname}/../bin/${fileBasenameNoExtension}_Debug",
+            "args": [],
+            "cwd": "${fileDirname}",
+        },
+        {
             "name": "(Windows) Launch ChapterWise Generic Debug",
             "type": "cppvsdbg",
             "request": "launch",
