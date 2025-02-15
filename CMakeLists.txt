@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.22.0)
 
-project(programming-with-posix-threads CXX C)
+project(template_vscode_chapterwise CXX C)
 
 set(EXTERN_LIB_PATH ${CMAKE_CURRENT_SOURCE_DIR}/external)
 

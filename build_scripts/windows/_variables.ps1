@@ -1,5 +1,5 @@
 # all variables used in ps1 files
-Set-Variable -Name PROJECT_NAME -Value "Template_VSCode_ChapterWise"
+Set-Variable -Name PROJECT_NAME -Value "template_vscode_chapterwise"
 
 Set-Variable -Name BUILD_SCRIPTS_DIR_PATH -Value $PSScriptRoot
 Set-Variable -Name PROJECT_ROOT_PATH_RELATIVE_FROM_SCRIPT -Value ..\..
@@ -25,14 +25,14 @@ function GetFullPath{
 }
 
 # Allowed Colors...
-# Black, DarkBlue, DarkGreen, DarkCyan, DarkRed, DarkMagenta, 
-# DarkYellow, Gray, DarkGray, Blue, Green, Cyan, Red, Magenta, 
+# Black, DarkBlue, DarkGreen, DarkCyan, DarkRed, DarkMagenta,
+# DarkYellow, Gray, DarkGray, Blue, Green, Cyan, Red, Magenta,
 # Yellow, White
 function LogOutput {
     param (
         [ValidateNotNullOrEmpty()]
         [string]$msg,
-        [System.ConsoleColor]$fgcolor, 
+        [System.ConsoleColor]$fgcolor,
         [System.ConsoleColor]$backcolor
     )
 

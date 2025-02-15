@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # Variables
-PROJECT_NAME="programming-with-posix-threads"
+PROJECT_NAME="template_vscode_chapterwise"
 
 BUILD_SCRIPTS_DIR_PATH="$(cd "$(dirname "$0")" && pwd)"
 PROJECT_ROOT_PATH_RELATIVE_FROM_SCRIPT="../../"
