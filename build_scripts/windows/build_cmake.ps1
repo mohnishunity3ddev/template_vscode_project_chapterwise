@@ -1,6 +1,11 @@
 # import all variables from _variables.ps1
 . $PSScriptRoot/_variables.ps1
 
+# create bin directory if it does not exist
+if (-Not (Test-Path $BIN_DIR_PATH)) {
+    mkdir $BIN_DIR_PATH
+}
+
 $arg = $args[0]
 $arg2 = $args[1]
 if([bool]$arg -and (($arg -eq "ms") -or  ($arg -eq "msvc") )) {
@@ -37,6 +42,9 @@ if(!$is_release) {
 
 # Build cmake files with Ninja
 ninja
+
+# move the compile_commands.json file from bin to the project directory.
+Move-Item -Path "$BIN_DIR_PATH/compile_commands.json" -Destination "$PROJECT_ROOT_DIR_PATH/compile_commands.json" -Force
 
 # only go to previous PWD if the previous PWD was not the bin directory
 if($InsideBin -eq 0) {

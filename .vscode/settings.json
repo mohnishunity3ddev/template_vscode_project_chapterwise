@@ -7,8 +7,12 @@
     "editor.cursorStyle": "block",
     
     // for mac users
-    "clangd.path": "/opt/homebrew/Cellar/llvm/19.1.7/bin/clangd",
-    
+    // "clangd.path": "/opt/homebrew/Cellar/llvm/19.1.7/bin/clangd",
+
+    // for windows users
+    "clangd.path": "C:\\Program Files\\LLVM\\bin\\clangd.exe",
+
+
     "terminal.integrated.shellIntegration.enabled": true,
     "terminal.integrated.profiles.windows": {
         "Default Profile Win": {
@@ -33,7 +37,7 @@
         }
     },
     "terminal.integrated.defaultProfile.linux": "Default Profile Linux",
-    
+
     // for running alias script on terminal startup on mac, make sure the below lines are present zshrc
     // if [[ "$TERM_PROGRAM" == "vscode" ]]; then
     // local workspace_dir=$PWD
@@ -71,5 +75,6 @@
     "zenMode.hideActivityBar": true,
 
     "editor.bracketPairColorization.enabled": false,
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "C_Cpp.errorSquiggles": "enabled"
 }
