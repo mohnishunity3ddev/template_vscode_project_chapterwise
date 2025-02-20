@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "'comic code ligatures', Monaco, 'SF Mono'",
+    "editor.fontFamily": "'sf mono', 'comic code ligatures', Monaco, 'SF Mono'",
     "editor.fontSize": 15,
     "editor.fontLigatures": true,
     "editor.fontWeight": "normal",
@@ -7,10 +7,10 @@
     "editor.cursorStyle": "block",
     
     // for mac users
-    // "clangd.path": "/opt/homebrew/Cellar/llvm/19.1.7/bin/clangd",
+    "clangd.path": "/opt/homebrew/Cellar/llvm/19.1.7/bin/clangd",
 
     // for windows users
-    "clangd.path": "C:\\Program Files\\LLVM\\bin\\clangd.exe",
+    // "clangd.path": "C:\\Program Files\\LLVM\\bin\\clangd.exe",
 
 
     "terminal.integrated.shellIntegration.enabled": true,
